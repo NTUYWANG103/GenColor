@@ -1,0 +1,16 @@
+diffusers
+pillow_lut
+scikit-image
+torch
+torchvision
+transformers
+wandb
+accelerate
+opencv-python
+timm
+kornia
+
+# For training
+torch
+qwen_vl_utils
+IPython
