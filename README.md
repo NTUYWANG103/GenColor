@@ -44,7 +44,7 @@ demo_fusion.ipynb
 # Training
 
 ### ARTISAN-1.2M Dataset
-Before training, you need to download the [ARTISAN-1.2M dataset](http://47.254.153.212:8501/) and generate captions for your images. 
+Before training, you need to download the [ARTISAN-1.2M dataset](https://drive.google.com/file/d/1C9E7F-A5wAs8CsgmJeH0j6ps-Z_SVN1c/view?usp=sharing) and generate captions for your images. 
 
 **Note**: Due to commercialization and copyright considerations, we release a 240P preview version of the dataset.
 
