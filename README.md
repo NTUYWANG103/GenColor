@@ -9,6 +9,8 @@ Official PyTorch Implementation of NeurIPS 2025 (Spotlight) Paper "[GenColor: Ge
 
 ![Teaser](asset/Teaser.png)
 ![Pipeline](asset/Pipeline.png)
+![Fusion_comp_nanobananapro](asset/Fusion_comp_nanobananapro.png)
+Commercial models like NanoBanana Pro also have texture distortion issues where text changes from "NO STANDING" to "ON STATING", while GenColor achieves pixel-perfect preservation.
 
 # Environment
 ```bash
