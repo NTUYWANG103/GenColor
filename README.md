@@ -40,8 +40,28 @@ Run the fusion demo notebook to combine the stage 1 color enhancement with the s
 demo_fusion.ipynb
 ```
 
+# ComfyUI Integration
 
+![ComfyUI Demo](asset/comfyui_demo.png)
 
+### Setup
+```bash
+cp -r /path/to/GenColor/comfyui /path/to/ComfyUI/custom_nodes/ComfyUI-GenColor-Fusion
+mkdir -p /path/to/ComfyUI/models/gencolor
+cp /path/to/GenColor/ckpt/GenColor_fusion/base.pth /path/to/ComfyUI/models/gencolor/
+```
+
+### Run
+```bash
+cd /path/to/ComfyUI
+python main.py --listen 0.0.0.0 --port 8188
+```
+
+### Usage
+1. Right-click → Add Node → GenColor → **GenColor Fusion**
+2. Add 2x `LoadImage` → connect to `input_image` and `color_reference`
+3. Add `PreviewImage` → connect to output
+4. Click **Queue Prompt** (or `Ctrl+Enter` / `Cmd+Enter`)
 
 # Training
 
